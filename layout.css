@@ -1,0 +1,204 @@
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+}
+body {
+  box-sizing: content-box;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  width: auto;
+  background-image: url(./images/grunge.png);
+}
+
+/*   FIllimi */
+.infobar {
+  background-color: #5ab29c93;
+  color: white;
+  margin: 0px;
+  padding: 15px;
+  text-align: left;
+  background-image: url(./images/special-bg.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  max-width: 100%;
+}
+
+.special {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.4rem;
+  margin-right: 1rem;
+}
+
+/*Header */
+
+header {
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* navigation bar */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+nav ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1rem;
+  font-size: 10px;
+  font-family: sans-serif;
+  letter-spacing: 0.2rem;
+  color: rgba(128, 128, 128, 0.804);
+}
+
+.figure {
+  /*  logo */
+  height: 10%;
+  width: 20%;
+  margin: 0rem;
+}
+
+.listat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 90px;
+  right: 30px;
+}
+
+ul li {
+  margin-left: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(71, 31, 31, 0.734);
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* body assetukset */
+
+.wrapper {
+  box-sizing: border-box;
+  width: 960px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 59%;
+  box-sizing: border-box;
+  float: left;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.main img {
+  max-width: auto;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 0rem;
+}
+
+/* sidebar assetukset */
+
+.sidebar {
+  box-sizing: border-box;
+  float: right;
+  padding: 1rem;
+  margin: 10px 0px 10px 0px;
+  width: 40%;
+}
+
+/* callout  */
+
+.callout {
+  display: block;
+  margin: -10px 0px 10px 1px;
+  background-color: rgba(248, 215, 165, 0.747);
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 5px auto;
+  word-spacing: 2px;
+}
+
+.sidebar ul {
+  margin: 0px 10px 10px -70px;
+  padding: 0 0 5px 0;
+  column-count: 2;
+}
+
+.sidebar a {
+  color: rgb(92, 99, 239);
+}
+.sidebar p {
+  margin: 2px 10px 0 0;
+}
+
+/* footer aassetukset */
+footer {
+  text-align: center;
+  clear: both;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+footer p {
+  padding: 1rem;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  color: rgb(137, 137, 137);
+}
+
+/* tablet responsivity */
+
+@media only screen and(min-width: 426px) {
+  #sailio {
+    max-width: 100%;
+  }
+
+  desktop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+
+/* Desktop responsivity */
+
+@media only screen and (min-width: 770px) {
+  #sailio {
+    max-width: 100%;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
