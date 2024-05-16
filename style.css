@@ -44,6 +44,7 @@ header {
   box-sizing: border-box;
   padding: 1rem;
   margin: 1rem;
+  width: 100%;
 }
 
 nav {
@@ -59,14 +60,13 @@ nav img {
 }
 
 nav ul {
-  align-items: center;
   justify-content: space-between;
   margin: auto;
   padding: 1rem;
   font-size: 1rem;
   font-family: var(--special-font);
-  letter-spacing: 0.2rem;
-  width: 100%;
+  letter-spacing: 0.15rem;
+  max-width: 100%;
 }
 
 nav a {
@@ -81,7 +81,7 @@ strong {
 .listat {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20px;
   right: 30px;
   width: 100%;
@@ -97,7 +97,7 @@ span {
   height: 10%;
   width: 20%;
   margin: 0rem;
-  position: absolute;
+  position: relative;
 }
 
 /* main section */
@@ -219,14 +219,14 @@ footer p {
   }
 
   nav img {
-    height: 9rem;
     width: 9rem;
-    margin: 5px 10px auto;
+    margin: 5px 0px auto;
     padding: 5px auto;
   }
 
   .listat li {
     max-width: 100%;
+    letter-spacing: 3px;
   }
 
   #wrapper {
